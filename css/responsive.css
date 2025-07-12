@@ -1,0 +1,134 @@
+@media (max-width:1199px){
+    .ap_benefits .title{
+        font-size:24px;
+    }
+    .di_banner_section .title{
+        font-size: 34px;
+    }
+    .di_banner_section{
+        background-position: 54% center;
+    }
+    .case_study_banner{
+        background-position: 46% center , 99% 22%, 7% 14%;
+        background-size: 350px , 130px, 120px;
+    }
+    .mortgage_case_study_banner{
+        background-position: 38% bottom;
+        background-size: 300px;
+    }
+    .mortgage_case_study_banner .title{
+        font-size: 30px;
+    }
+    .cobaf_banner_section .title{
+        font-size: 30px;
+    }
+    .cobaf_banner_section .title b{
+        font-size: 40px;
+    }
+    .dashboard{
+        width: 55%;
+    }
+}
+@media (max-width:991px){
+    .fa_header{
+        padding: 16px 0;
+    }
+    .di_form_section{
+        margin: 0 auto !important;
+    }
+    .di_banner_section{
+        margin-top: 80px;
+    }
+    .case_study_banner{
+        background-image: none !important;
+    }
+    .cobaf_banner_section{
+        background-size: cover !important;
+        background-position: 10% center !important;
+    }
+    .di_banner_section{
+        height: auto;
+        background-position: right bottom;
+        background-size: contain;
+    }
+    .di_banner_section .container > .row > div:first-child{
+        margin-top: 20px !important;
+    }
+    .di_banner_section .container > .row > div:last-child{
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+    .ap_benefits ul li{
+        font-size: 16px;
+        padding: 10px 0 10px 20px;
+    }
+    .ap_benefits ul li:before{
+        top: 18px;
+    }
+    .di_banner_section .container > .row > div:last-child.thank_you_section{
+        margin-bottom: 20px !important;
+    }
+    .mortgage_case_study_banner .title{
+        margin-top: 0;
+    }
+    .mortgage_case_study_banner .title b,.cobaf_banner_section .title b{
+        font-size: inherit;
+        text-indent: 0;
+    }
+    .sub_hyperlinks > li{
+        margin-bottom: 25px;
+    }
+    .cobaf_banner_section .title br{
+        display: none;
+    }
+    .diagnostic-boxes{
+        padding:10px;
+    }
+    .diagnostic-boxes:hover {
+        transform: translateY(0) scale(1);
+        transition: all 0.25s ease-in-out;
+        box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 16%);
+    }
+    .dashboard{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:768px){
+    .di_banner_section .title{
+        font-size: 30px;
+    }
+    .di_form_section h1{
+        font-size: 26px;
+    }
+    .di_form_section  h2{
+        font-size: 24px;
+    }
+    .fa_header .navbar-brand span{
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .di_banner_section .form-group{
+        margin-bottom: 15px;
+    }
+    .footer_hyperlinks{
+        text-align: center;
+    }
+    .sub_hyperlinks > li{
+        width: 100%;
+        margin-bottom: 15px;
+        padding-right: 0;
+    }
+    .cobaf-diagnostic-container .diagnostic-boxes{
+        height: 250px;
+    }
+    .cobaf_banner_section form .title{
+        font-size: 18px;
+    }
+}
